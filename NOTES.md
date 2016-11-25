@@ -2,6 +2,9 @@
 
 #### Checkpoint 4: 
 
+Imperative vs. Declarative: Imperative [eg jquery] tells the markup what to do, but it's not obvious from looking at the markup what any element might do; declarative [eg angular] includes all the functional behavior as part of the markup. 
+ng-click ~= .click() in jquery
+ng-show ~= .show()
 
 
 
@@ -19,7 +22,7 @@ $locationProvider disables hashbang mode; so the url will be url.com/pagename in
 
 //$stateprovider calls the state method w two arguments - stateName and stateConfig 
  like this - $stateProvider.state(stateName, stateConfig)
- 
+
 
 -------
 
