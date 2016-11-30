@@ -15,6 +15,8 @@ Use controllers for:
 
 In the controller - there's a .module() method similar to module method in app.js, but doesn't need a second argument [which in app.js is the array of dependencies - this has already been set]. 
 
+[https://docs.angularjs.org/guide/expression#angular-expressions-vs-javascript-expressions](Angular Expressions ingo )
+
 __QUESTIONS__
 -  .controller('MyCtrl', [$scope, dep1, dep2, MyCtrl]); - this controller has some dependencies. why are they in the controller and not in app.js? 
 
