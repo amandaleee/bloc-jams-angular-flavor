@@ -38,10 +38,12 @@
     Fixtures.getCollection = function(a) {
       var collection = [];
       for (var i=0; i < a; i++) {
-        // console.log(i);
+        // console.log(i); - works
         collection.push(albumPicasso);
-        // console.log(collection);
+        //console.log(collection); - works
       }
+      console.log(collection);
+      return collection;
     }; 
      
     return Fixtures;
